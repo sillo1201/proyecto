@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="91b913d4-6c83-44fd-9dac-c8e6d706d907" name="Steven@DESKTOP-I7SMFT8 2025-04-15 18:36:31" runUser="DESKTOP-I7SMFT8\Steven" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-04-15T18:36:31.3516738-06:00" queuing="2025-04-15T18:36:31.3516742-06:00" start="2025-04-15T18:36:27.5230779-06:00" finish="2025-04-15T18:36:31.4151177-06:00" />
+  <TestSettings name="default" id="14858df2-9645-4a03-a7ab-c874b84734cf">
+    <Deployment runDeploymentRoot="Steven_DESKTOP-I7SMFT8_2025-04-15_18_36_31" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="82d7c8d7-501a-4441-afa1-7e0e204f5347" testId="100afb2f-73d6-b703-5c37-133eac6e9208" testName="prueba3" computerName="DESKTOP-I7SMFT8" duration="00:00:00.0023288" startTime="2025-04-15T18:36:31.0163879-06:00" endTime="2025-04-15T18:36:31.0190645-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82d7c8d7-501a-4441-afa1-7e0e204f5347" />
+    <UnitTestResult executionId="4214c893-69da-4d82-bb67-01919b2bc280" testId="3221b7cd-e511-58a0-705b-b0ce6a0c1bbb" testName="prueba2" computerName="DESKTOP-I7SMFT8" duration="00:00:00.0174122" startTime="2025-04-15T18:36:30.9969762-06:00" endTime="2025-04-15T18:36:31.0152100-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4214c893-69da-4d82-bb67-01919b2bc280">
+      <Output>
+        <ErrorInfo>
+          <Message>Excepción método de prueba appticketstest.Tests.ProgramTests.prueba2: &#xD;
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at apptickets.DatabaseService.CambiarEstadoTicket(Int32 idTicket, String nuevoEstado) in C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\apptickets\DatabaseService.cs:line 81&#xD;
+   at appticketstest.Tests.ProgramTests.prueba2() in C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\Test1.cs:line 35&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2dd74f89-a276-4a43-9ec6-2a84fe85bc62" testId="dff1b4f7-8c3a-47cc-dc2c-c3fd399319a8" testName="prueba1" computerName="DESKTOP-I7SMFT8" duration="00:00:01.5275529" startTime="2025-04-15T18:36:29.3928966-06:00" endTime="2025-04-15T18:36:30.9668712-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2dd74f89-a276-4a43-9ec6-2a84fe85bc62">
+      <Output>
+        <ErrorInfo>
+          <Message>Excepción método de prueba appticketstest.Tests.ProgramTests.prueba1: &#xD;
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at apptickets.DatabaseService.AgregarUsuario(String nuevoNombre, Boolean esAdministrador) in C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\apptickets\DatabaseService.cs:line 68&#xD;
+   at appticketstest.Tests.ProgramTests.prueba1() in C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\Test1.cs:line 27&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="60743dbd-2680-4e90-99dc-060a0d631c94" testId="018addc5-a598-5ea9-8dbb-ce5a85b315bb" testName="prueba4" computerName="DESKTOP-I7SMFT8" duration="00:00:00.0015814" startTime="2025-04-15T18:36:31.0192053-06:00" endTime="2025-04-15T18:36:31.0211067-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60743dbd-2680-4e90-99dc-060a0d631c94" />
+    <UnitTestResult executionId="206320af-1018-4170-8daf-5f09c8ffaca2" testId="73685de7-fa72-0d34-53a0-579202c4a648" testName="prueba5" computerName="DESKTOP-I7SMFT8" duration="00:00:00.0024973" startTime="2025-04-15T18:36:31.0212375-06:00" endTime="2025-04-15T18:36:31.0371267-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="206320af-1018-4170-8daf-5f09c8ffaca2">
+      <Output>
+        <ErrorInfo>
+          <Message>Excepción método de prueba appticketstest.Tests.ProgramTests.prueba5: &#xD;
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at apptickets.DatabaseService.CrearTicket(String nombreUsuario, String solicitud) in C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\apptickets\DatabaseService.cs:line 95&#xD;
+   at appticketstest.Tests.ProgramTests.prueba5() in C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\Test1.cs:line 75&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="prueba2" storage="c:\users\steven\downloads\proyecto calidad\proyecto\appticketstest.tests\bin\debug\net9.0\appticketstest.tests.dll" id="3221b7cd-e511-58a0-705b-b0ce6a0c1bbb">
+      <Execution id="4214c893-69da-4d82-bb67-01919b2bc280" />
+      <TestMethod codeBase="C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\bin\Debug\net9.0\appticketstest.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="appticketstest.Tests.ProgramTests" name="prueba2" />
+    </UnitTest>
+    <UnitTest name="prueba3" storage="c:\users\steven\downloads\proyecto calidad\proyecto\appticketstest.tests\bin\debug\net9.0\appticketstest.tests.dll" id="100afb2f-73d6-b703-5c37-133eac6e9208">
+      <Execution id="82d7c8d7-501a-4441-afa1-7e0e204f5347" />
+      <TestMethod codeBase="C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\bin\Debug\net9.0\appticketstest.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="appticketstest.Tests.ProgramTests" name="prueba3" />
+    </UnitTest>
+    <UnitTest name="prueba1" storage="c:\users\steven\downloads\proyecto calidad\proyecto\appticketstest.tests\bin\debug\net9.0\appticketstest.tests.dll" id="dff1b4f7-8c3a-47cc-dc2c-c3fd399319a8">
+      <Execution id="2dd74f89-a276-4a43-9ec6-2a84fe85bc62" />
+      <TestMethod codeBase="C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\bin\Debug\net9.0\appticketstest.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="appticketstest.Tests.ProgramTests" name="prueba1" />
+    </UnitTest>
+    <UnitTest name="prueba5" storage="c:\users\steven\downloads\proyecto calidad\proyecto\appticketstest.tests\bin\debug\net9.0\appticketstest.tests.dll" id="73685de7-fa72-0d34-53a0-579202c4a648">
+      <Execution id="206320af-1018-4170-8daf-5f09c8ffaca2" />
+      <TestMethod codeBase="C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\bin\Debug\net9.0\appticketstest.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="appticketstest.Tests.ProgramTests" name="prueba5" />
+    </UnitTest>
+    <UnitTest name="prueba4" storage="c:\users\steven\downloads\proyecto calidad\proyecto\appticketstest.tests\bin\debug\net9.0\appticketstest.tests.dll" id="018addc5-a598-5ea9-8dbb-ce5a85b315bb">
+      <Execution id="60743dbd-2680-4e90-99dc-060a0d631c94" />
+      <TestMethod codeBase="C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\bin\Debug\net9.0\appticketstest.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="appticketstest.Tests.ProgramTests" name="prueba4" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="100afb2f-73d6-b703-5c37-133eac6e9208" executionId="82d7c8d7-501a-4441-afa1-7e0e204f5347" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3221b7cd-e511-58a0-705b-b0ce6a0c1bbb" executionId="4214c893-69da-4d82-bb67-01919b2bc280" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dff1b4f7-8c3a-47cc-dc2c-c3fd399319a8" executionId="2dd74f89-a276-4a43-9ec6-2a84fe85bc62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="018addc5-a598-5ea9-8dbb-ce5a85b315bb" executionId="60743dbd-2680-4e90-99dc-060a0d631c94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73685de7-fa72-0d34-53a0-579202c4a648" executionId="206320af-1018-4170-8daf-5f09c8ffaca2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="2" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="8e974bee-e960-4db9-8bea-f951c66af97e" name="Steven@DESKTOP-I7SMFT8 2025-04-15 20:43:51" runUser="DESKTOP-I7SMFT8\Steven" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-04-15T20:43:51.7316266-06:00" queuing="2025-04-15T20:43:51.7316268-06:00" start="2025-04-15T20:43:48.9938125-06:00" finish="2025-04-15T20:43:51.7547215-06:00" />
+  <TestSettings name="default" id="2f0392b0-fe78-460a-9c92-cd7a25fa4233">
+    <Deployment runDeploymentRoot="Steven_DESKTOP-I7SMFT8_2025-04-15_20_43_51" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="99e10d34-1516-4f5e-b852-d1a1d7979de0" testId="dff1b4f7-8c3a-47cc-dc2c-c3fd399319a8" testName="prueba1" computerName="DESKTOP-I7SMFT8" duration="00:00:00.4096185" startTime="2025-04-15T20:43:50.7088374-06:00" endTime="2025-04-15T20:43:51.1571816-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99e10d34-1516-4f5e-b852-d1a1d7979de0" />
+    <UnitTestResult executionId="63cf14fb-01df-453d-ae52-3acc57ae1560" testId="3221b7cd-e511-58a0-705b-b0ce6a0c1bbb" testName="prueba2" computerName="DESKTOP-I7SMFT8" duration="00:00:00.0050127" startTime="2025-04-15T20:43:51.1679876-06:00" endTime="2025-04-15T20:43:51.1739606-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63cf14fb-01df-453d-ae52-3acc57ae1560" />
+    <UnitTestResult executionId="729704e8-0d0a-4dbc-b0c4-2737956cd29d" testId="82db888c-8c04-5708-00e7-b992ce0b84bc" testName="prueba6" computerName="DESKTOP-I7SMFT8" duration="00:00:00.0022209" startTime="2025-04-15T20:43:51.2055757-06:00" endTime="2025-04-15T20:43:51.2096267-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="729704e8-0d0a-4dbc-b0c4-2737956cd29d" />
+    <UnitTestResult executionId="f1a9d16f-a90b-4166-94a8-05786c2527ab" testId="73685de7-fa72-0d34-53a0-579202c4a648" testName="prueba5" computerName="DESKTOP-I7SMFT8" duration="00:00:00.0041260" startTime="2025-04-15T20:43:51.2010446-06:00" endTime="2025-04-15T20:43:51.2054975-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1a9d16f-a90b-4166-94a8-05786c2527ab" />
+    <UnitTestResult executionId="2608ae0b-9dfc-4fbb-b242-d3e1770fa018" testId="100afb2f-73d6-b703-5c37-133eac6e9208" testName="prueba3" computerName="DESKTOP-I7SMFT8" duration="00:00:00.0222077" startTime="2025-04-15T20:43:51.1746176-06:00" endTime="2025-04-15T20:43:51.1970029-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2608ae0b-9dfc-4fbb-b242-d3e1770fa018" />
+    <UnitTestResult executionId="df61d3ff-0d20-4e82-a608-739fff2222ac" testId="018addc5-a598-5ea9-8dbb-ce5a85b315bb" testName="prueba4" computerName="DESKTOP-I7SMFT8" duration="00:00:00.0036355" startTime="2025-04-15T20:43:51.1970884-06:00" endTime="2025-04-15T20:43:51.2009397-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df61d3ff-0d20-4e82-a608-739fff2222ac" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="prueba2" storage="c:\users\steven\downloads\proyecto calidad\proyecto\appticketstest.tests\bin\debug\net9.0\appticketstest.tests.dll" id="3221b7cd-e511-58a0-705b-b0ce6a0c1bbb">
+      <Execution id="63cf14fb-01df-453d-ae52-3acc57ae1560" />
+      <TestMethod codeBase="C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\bin\Debug\net9.0\appticketstest.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="appticketstest.Tests.ProgramTests" name="prueba2" />
+    </UnitTest>
+    <UnitTest name="prueba3" storage="c:\users\steven\downloads\proyecto calidad\proyecto\appticketstest.tests\bin\debug\net9.0\appticketstest.tests.dll" id="100afb2f-73d6-b703-5c37-133eac6e9208">
+      <Execution id="2608ae0b-9dfc-4fbb-b242-d3e1770fa018" />
+      <TestMethod codeBase="C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\bin\Debug\net9.0\appticketstest.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="appticketstest.Tests.ProgramTests" name="prueba3" />
+    </UnitTest>
+    <UnitTest name="prueba1" storage="c:\users\steven\downloads\proyecto calidad\proyecto\appticketstest.tests\bin\debug\net9.0\appticketstest.tests.dll" id="dff1b4f7-8c3a-47cc-dc2c-c3fd399319a8">
+      <Execution id="99e10d34-1516-4f5e-b852-d1a1d7979de0" />
+      <TestMethod codeBase="C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\bin\Debug\net9.0\appticketstest.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="appticketstest.Tests.ProgramTests" name="prueba1" />
+    </UnitTest>
+    <UnitTest name="prueba6" storage="c:\users\steven\downloads\proyecto calidad\proyecto\appticketstest.tests\bin\debug\net9.0\appticketstest.tests.dll" id="82db888c-8c04-5708-00e7-b992ce0b84bc">
+      <Execution id="729704e8-0d0a-4dbc-b0c4-2737956cd29d" />
+      <TestMethod codeBase="C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\bin\Debug\net9.0\appticketstest.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="appticketstest.Tests.ProgramTests" name="prueba6" />
+    </UnitTest>
+    <UnitTest name="prueba5" storage="c:\users\steven\downloads\proyecto calidad\proyecto\appticketstest.tests\bin\debug\net9.0\appticketstest.tests.dll" id="73685de7-fa72-0d34-53a0-579202c4a648">
+      <Execution id="f1a9d16f-a90b-4166-94a8-05786c2527ab" />
+      <TestMethod codeBase="C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\bin\Debug\net9.0\appticketstest.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="appticketstest.Tests.ProgramTests" name="prueba5" />
+    </UnitTest>
+    <UnitTest name="prueba4" storage="c:\users\steven\downloads\proyecto calidad\proyecto\appticketstest.tests\bin\debug\net9.0\appticketstest.tests.dll" id="018addc5-a598-5ea9-8dbb-ce5a85b315bb">
+      <Execution id="df61d3ff-0d20-4e82-a608-739fff2222ac" />
+      <TestMethod codeBase="C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\bin\Debug\net9.0\appticketstest.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="appticketstest.Tests.ProgramTests" name="prueba4" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="dff1b4f7-8c3a-47cc-dc2c-c3fd399319a8" executionId="99e10d34-1516-4f5e-b852-d1a1d7979de0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3221b7cd-e511-58a0-705b-b0ce6a0c1bbb" executionId="63cf14fb-01df-453d-ae52-3acc57ae1560" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82db888c-8c04-5708-00e7-b992ce0b84bc" executionId="729704e8-0d0a-4dbc-b0c4-2737956cd29d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73685de7-fa72-0d34-53a0-579202c4a648" executionId="f1a9d16f-a90b-4166-94a8-05786c2527ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="100afb2f-73d6-b703-5c37-133eac6e9208" executionId="2608ae0b-9dfc-4fbb-b242-d3e1770fa018" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="018addc5-a598-5ea9-8dbb-ce5a85b315bb" executionId="df61d3ff-0d20-4e82-a608-739fff2222ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
