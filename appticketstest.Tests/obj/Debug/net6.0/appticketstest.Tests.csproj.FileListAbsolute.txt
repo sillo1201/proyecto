@@ -1,0 +1,6 @@
+C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\obj\Debug\net6.0\appticketstest.Tests.csproj.AssemblyReference.cache
+C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\obj\Debug\net6.0\appticketstest.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\obj\Debug\net6.0\appticketstest.Tests.AssemblyInfoInputs.cache
+C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\obj\Debug\net6.0\appticketstest.Tests.AssemblyInfo.cs
+C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\obj\Debug\net6.0\appticketstest.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Downloads\Proyecto Calidad\proyecto\appticketstest.Tests\obj\Debug\net6.0\appticketstest.Tests.sourcelink.json
